@@ -1,0 +1,126 @@
+
+/* 
+Author:Marco Mclean
+ID #: 2209181
+CSS Style: Development Style Sheet
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+.home {
+  color: #1c99fe;
+}
+
+.professional {
+  color:#fd4766;
+}
+
+.personal {
+  color: #7644ff;
+}
+
+.development {
+  color: #1c99fe
+}
+
+.storyboard {
+  color: #fd4766;
+}
+
+.references {
+  color:#7644ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.content {
+  position: relative;
+  top: 10%;
+  left: 8%;
+  
+}
+.content .title {
+  color: #0a0a0a;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-top: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h3 {
+  margin-top: 10px;
+  top: 50px;
+  color: #1f1f25;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 70px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #1c99fe;
+}
+.content p {
+  width: 70%;
+  color: #202020;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content ul{
+  margin-left: 40px;
+  margin-bottom: 20px;
+}

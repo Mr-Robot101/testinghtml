@@ -1,0 +1,710 @@
+<!-- 
+Author: Marco Mclean
+ID #: 2209181
+Description: The resume was created by notion.io then was exported in the format of HTML
+ -->
+
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Marco Mclean</title>
+		<link rel="stylesheet" href="indexstyle.css" />
+    	<link rel="icon" href="/favicon.ico" type="image/png">
+		<style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="a8e00cb9-7c6e-4de2-b68b-7689d4534437" class="page sans"><header><div class="page-header-icon undefined"><img class="icon" src="/CVlogo.png"/></div><h1 class="page-title"><a href="https://static.vecteezy.com/system/resources/previews/000/616/401/original/m-logo-business-template-vector-icon.jpg">Marco Mclean</a></h1><p class="page-description"></p></header><div class="page-body"><h2 id="290d08c8-0a4e-4fde-a5e3-8f8d8900a5a6" class="">Pursuing<strong> Computer Science B.Sc.</strong></h2><hr id="7d635467-053d-47c1-a4d3-65b5ffdee194"/><div id="dc3108b0-715f-4965-a378-3b8bd4684f60" class="column-list"><div id="e7511568-6aa7-42bb-b8d2-2fabeeaf2da9" style="width:100%" class="column"><p id="7847187e-d9be-4087-a6a0-6128465e5b7e" class=""><strong>Bio</strong></p><p id="65352aa6-e2b4-45a3-b4df-4f4daeb60760" class="">I&#x27;m a pursuing Computer Science student with a passion for learning and developing innovative software solutions. Proficient in a variety of programming languages and technologies, including Python, Java, and C++. Eager to apply my skills and knowledge to a challenging and rewarding position in the tech industry.</p><p id="05ad7dff-7cbf-41bc-b1ef-dc34927bf1ef" class="">
+</p><p id="299992fd-457e-4a5e-83b7-6569859a7ad2" class="">
+</p><p id="1c030343-0ec7-4011-b9a9-c4385db6f5ab" class=""><strong><strong><strong>Lifeguard at High Sierra </strong></strong></strong></p><p id="7bf7189b-3c3c-4088-b266-928920e3a49c" class="">May 27, 2023<mark class="highlight-gray"> - Sep 04, 2023</mark></p><ul id="249ee841-d940-4654-a948-9fe21493878e" class="bulleted-list"><li style="list-style-type:disc">Enforcing pool rules and regulations.</li></ul><ul id="4aa76984-de46-47e1-b5be-5cd096629a9a" class="bulleted-list"><li style="list-style-type:disc">Providing first aid and CPR.</li></ul><ul id="4df0064f-50a8-448d-a4b1-5a9dc5cf82a1" class="bulleted-list"><li style="list-style-type:disc">Maintaining the cleanliness and safety of the aquatic facility.</li></ul><ul id="4858078f-a125-4d04-bced-64c3f55f67cb" class="bulleted-list"><li style="list-style-type:disc">Educating the public about water safety.</li></ul><p id="cd3fe5e1-461b-4598-9c96-43d1d80b0a2e" class="">
+</p><p id="53721251-8b67-4595-9232-40118be4fa5c" class="">
+</p><p id="73a7b143-dbe4-440a-99f3-7d02d826a85a" class=""><strong>Graphic Designing Officer at Youth Education Association </strong></p><p id="b990a886-ee14-4c6c-80a8-80aa8fdf593c" class="">June 2023<mark class="highlight-gray"> - Current </mark></p><ul id="092220ea-bbae-4b77-8c39-2cc67f76ddec" class="bulleted-list"><li style="list-style-type:disc">Conceptualize and develop visual ideas.</li></ul><ul id="6244720a-589e-47d2-a6c2-0b521bcd1f40" class="bulleted-list"><li style="list-style-type:disc">Create and edit images. </li></ul><ul id="6ef322e2-e122-40d4-a709-24a8c93be883" class="bulleted-list"><li style="list-style-type:disc">Design logos and branding</li></ul><ul id="accace4e-9e17-4225-a143-c44e5b868dc0" class="bulleted-list"><li style="list-style-type:disc">Design typography and layouts</li></ul><p id="a1ee0077-ce18-4f3a-9cfa-7a920d30d61c" class="">
+</p><p id="81702c4f-77d5-4afe-a53c-5ec74a229d9e" class="">
+</p><p id="369aae46-204b-49b0-b518-ed0630bbceb7" class=""><strong><strong><strong>Internship at E-biome </strong></strong></strong></p><p id="f819ca57-2fc7-4339-b646-7298a6f5c7b3" class="">May 30, 2023<mark class="highlight-gray"> - September 10, 2023</mark></p><ul id="47ccf45c-7680-4878-a604-53a3f557c33c" class="bulleted-list"><li style="list-style-type:disc">Attended various seminars.</li></ul><ul id="d41143ab-876f-4e71-8377-fe07446dab22" class="bulleted-list"><li style="list-style-type:disc">Worked closely with various research organizations.</li></ul><ul id="e19446d8-b2e4-41bf-9c7c-067ace3a7596" class="bulleted-list"><li style="list-style-type:disc">Carried out various research projects.</li></ul><p id="ca31263f-da26-4e29-a108-fe1910060e61" class="">
+</p></div><div id="90d85405-c6fd-4a0c-9f2d-2e9a7fbe5965" style="width:43.75000000000002%" class="column"><p id="778491bd-7d16-4709-b509-c82ec14c116f" class=""><strong><strong><strong><strong><strong><strong><strong>Contact</strong></strong></strong></strong></strong></strong></strong></p><p id="a6a87e04-c731-40e2-bcbf-9d1c07d765bb" class="">marcomclean876@gmail.com</p><p id="8c37d047-75b8-469a-b523-271ee58bc972" class="">(876) 369 - 7972</p><p id="16c94d5c-9739-4dad-8ac2-ae0fb7796c77" class="">
+</p><p id="f5b78693-3c5f-4618-b9bc-e4fd1d619f39" class="">
+</p><div id="9680ac35-786a-4596-a01d-6b5a1919df7f" class="column-list"><div id="dc8bd8d1-9695-44c4-8126-15f849bddcd8" style="width:106.25%" class="column"><p id="e8c722a6-49b4-43c0-8659-1b9df28f2c3f" class=""><strong><strong><strong><strong><strong><strong>Skills</strong></strong></strong></strong></strong></strong></p><p id="2d855ab4-7201-4ac0-94e1-40a857d0157e" class="">Python</p><p id="1e749770-cad4-44b7-b4d5-397f52e06fd7" class="">C</p><p id="99a1025f-bde1-48a8-bf5c-dc0091c78a5f" class="">HTML</p><p id="5074e666-c175-44ec-b574-99fdc6484a97" class="">CSS</p><p id="2d3490a5-4f5e-4ce0-a7f9-a3c423b980ea" class="">
+</p></div><div id="9405f0a4-afc0-49c2-a933-da85650f1f3c" style="width:87.49999999999997%" class="column"><p id="27dae7a2-47aa-4c25-bc02-f634445a065c" class="">
+</p><p id="0bb369bb-9649-43aa-942b-de358f13fe86" class="">●●●●○</p><p id="43520b02-c908-43ad-ac98-28da7bcb0720" class="">●●●●●</p><p id="334a33f4-9b17-48ef-a0c6-1e2a270acf03" class="">●●●●○</p><p id="d381e3e2-67f5-4d76-b040-5f0c2b0b6775" class="">●●●○○</p></div></div><p id="57e586c6-fbdc-4dd6-98b1-2af9e5aebd80" class="">
+</p><p id="52599c4b-f5b4-45d3-a218-d9a350177a6c" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong>Languages</strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p id="e1b40160-28f3-4b73-a2a4-c9aea3bf76d3" class="">English <em>(Fluent)</em></p><p id="996c98c2-4ef6-4258-888f-fa004ae49f34" class="">Spanish <em>(Beginner)</em></p><p id="551c0c33-3e57-4461-b8b1-1671af62ab09" class="">
+</p><p id="8afe4334-e287-42ea-9cc8-c96878c8203c" class="">
+</p><p id="f2f0b5bb-c27c-424e-bc9f-8ddcd8e51677" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong>Education</strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p id="20ee0f49-79ee-4851-97b1-1f698266775c" class="">Nine CSEC Passes</p><p id="a1732927-1eba-4248-b68b-ccfb10825c2a" class="">Six Cape Unit 1 Passes</p><p id="7e58642e-382a-4e85-8cf0-dbc52d65540f" class="">Heart Trust NTA Pursuing Supervisory Management Level 3 </p><p id="6afbcd0d-0442-433e-849b-976a01357903" class="">Pursing <a href="http://B.Sc">B.Sc</a>. Computer Science</p><p id="0181d880-a7fd-4c47-bff0-ccd1b0cf78f8" class="">
+</p><p id="0f1c0126-f4ae-4e2b-a09c-891b48531f3b" class="">
+</p><p id="91ff2705-39a1-4c9f-a3e2-5065df0550a4" class=""><strong>Certifications</strong></p><p id="0910062f-932c-444c-a8ca-f371386be4b2" class="">Heart Trust NTA Introduction to Cyber Security</p><p id="fc1d157f-e047-434e-b9f7-36afdfcae644" class="">Red Cross Lifeguard</p><p id="4466365b-6947-4dd6-807a-81bb300170ed" class="">Google Digital Marketing</p><p id="7823612d-1bba-4712-b476-75f1b8efc3fb" class="">
+</p><p id="d20e5b00-f467-45fb-b339-12c9d0819187" class="">
+</p><p id="c9d2bd8e-9451-4d7d-ae9c-b097db03b53f" class="">
+</p><p id="303d52a3-9d37-4b9f-af69-83ba1a7dc562" class="">
+</p></div></div><p id="02c55715-71cb-4f8c-a4f1-1eb0d22101a5" class="">
+</p></div></article></body></html>
